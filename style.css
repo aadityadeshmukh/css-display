@@ -10,10 +10,12 @@ em{
   display:none;
   height:100px;
 }
-div{
+#div2{
   background-color:black;
   height:100px;
-  position:relative;
-  top:20px;
-  left:30px;
+  width:100px;
+  position:fixed;
+  bottom:0;
+  right:0;
+  border:2px solid black;
 }
