@@ -10,3 +10,8 @@ em{
   display:none;
   height:100px;
 }
+div{
+  background-color:black;
+  height:100px;
+  position:static;
+}
