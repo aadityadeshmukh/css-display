@@ -1,0 +1,12 @@
+h1, p{
+  display:inline;
+}
+em{
+  display:block;
+}
+#div1{
+  background-color:blueviolet;
+  border:2px solid blueviolet;
+  display:none;
+  height:100px;
+}
