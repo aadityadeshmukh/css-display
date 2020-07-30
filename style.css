@@ -1,11 +1,15 @@
 em{
   display:block;
 }
+body{
+  float:left;
+}
 #div1{
   background-color:blueviolet;
   border:2px solid blueviolet;
   display:none;
   height:100px;
+  float:left;
 }
 #div2{
   background-color:black;
@@ -14,11 +18,26 @@ em{
   position:sticky;
   top:0;
   border:2px solid black;
+  float:right;
 }
 div.overflow-test{
-  background-color:grey;
+  background-color:lightsteelblue;
   width:150px;
   height:70px;
   white-space: nowrap;
   overflow-y: auto;
+  float:inherit;
+}
+.clear-test{
+  background-color:aqua;
+  width:100px;
+  height:100px;
+  float:left;
+  clear:left;
+}
+.clear-test-1{
+  border: 2px solid blue;
+  width:100px;
+  height:100px;
+  clear:left;
 }
