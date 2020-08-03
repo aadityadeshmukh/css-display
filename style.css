@@ -1,6 +1,5 @@
 div{
   border:2px solid black;
-  position:absolute;
-  right:0px;
-  bottom:0px;
+  padding:70px 0;
+  text-align: center;
 }
