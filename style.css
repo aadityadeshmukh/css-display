@@ -1,5 +1,18 @@
-div{
+.old{
   border:2px solid black;
   line-height:200px;
   height:200px;
+  margin:10px;
+}
+div p{
+  background-color:aqua;
+}
+div > p{
+  background-color:green;
+}
+div ~ p{
+  background-color: pink;
+}
+div + p{
+  background-color: yellow;
 }
