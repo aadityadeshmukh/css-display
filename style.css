@@ -44,9 +44,15 @@ p.p-element::first-letter{
   color:blue;
   font-size:30px; 
 }
-p.p-element::before{
+/* p.p-element::before{
  content:url(https://img.icons8.com/material/280/2980B9/circled-a.png)
-}
+} */
 ::selection{
   background-color:blueviolet;
+}
+img{
+  opacity:0.5;
+}
+img:hover{
+  opacity:1;
 }
