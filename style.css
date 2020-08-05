@@ -51,8 +51,8 @@ p.p-element::first-letter{
   background-color:blueviolet;
 }
 img{
-  opacity:0.5;
+  opacity:1;
 }
 img:hover{
-  opacity:1;
+  opacity:0.5;
 }
