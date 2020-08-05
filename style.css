@@ -47,3 +47,6 @@ p.p-element::first-letter{
 p.p-element::before{
  content:url(https://img.icons8.com/material/280/2980B9/circled-a.png)
 }
+::selection{
+  background-color:blueviolet;
+}
