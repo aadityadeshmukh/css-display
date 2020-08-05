@@ -37,3 +37,6 @@ div:hover + p{
 p:first-child{
   color:blue;
 }
+p.p-element::first-line{
+  background-color: peachpuff;
+}
