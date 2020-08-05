@@ -5,18 +5,18 @@
   margin:10px;
 }
 
-div p{
-  background-color:aqua;
+/* div p{
+  //background-color:aqua;
 }
 div > p{
-  background-color:green;
+  //background-color:green;
 }
 div ~ p{
-  background-color: pink;
+  //background-color: pink;
 }
 div + p{
-  background-color: yellow;
-}
+  //background-color: yellow;
+} */
 #divAsButton{
   border:2px solid black;
   width:100px;
@@ -28,9 +28,12 @@ div + p{
   background-color:peachpuff;
 }
 p{
-  display: none;
+  /* //display: none; */
   background-color: transparent;
 }
 div:hover + p{
   display: block;
+}
+p:first-child{
+  color:blue;
 }
