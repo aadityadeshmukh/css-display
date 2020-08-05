@@ -40,3 +40,10 @@ p:first-child{
 p.p-element::first-line{
   background-color: peachpuff;
 }
+p.p-element::first-letter{
+  color:blue;
+  font-size:30px; 
+}
+p.p-element::before{
+ content:url(https://img.icons8.com/material/280/2980B9/circled-a.png)
+}
