@@ -24,4 +24,15 @@
   .dropdown-content a:hover{
     background-color:#f1f1f1;
   }
-  
+  .dropbtn{
+    background-color: #4CAF50;
+    border:none;
+    padding: 16px 16px;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+
+  }
+  .dropdown:hover .dropbtn{
+    background-color:#3e8e41;
+  }
